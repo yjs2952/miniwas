@@ -2,7 +2,7 @@ package miniwas;
 
 public class Main {
     public static void main(String[] args) {
-        WasServer was = new WasServer(8080);
+        Connector was = new Connector(8080);
         was.start();
     }
 }

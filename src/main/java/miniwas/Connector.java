@@ -5,11 +5,11 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class WasServer extends Thread {
+public class Connector extends Thread {
 
     private int port;
 
-    public WasServer(int port) {
+    public Connector(int port) {
         this.port = port;
     }
 
